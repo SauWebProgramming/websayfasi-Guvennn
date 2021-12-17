@@ -1,5 +1,5 @@
 .imageSlider{
-    height: 600px;
+    height: 700px;
 }
 
 body{
@@ -9,10 +9,13 @@ body{
 
 .hakkimizdaRenk{
 
-    background-color: #f2f2f2d2;
+    background-color: #ffdcdc2a;
 
 }
 
+.ekipRenk{
+    background-color: rgba(255, 255, 255, 0.89);
+}
 .cizgi{
     border:none;
     border-top:4px solid #7e2c2c;
@@ -22,3 +25,28 @@ body{
 
 }
 
+.ekipCard>img:hover{
+    opacity:0.8;
+}
+
+
+.galeri{
+    background-color:aliceblue
+}
+
+.figure:hover{
+    opacity: 0.6;
+}
+
+.sectionIletisim{
+   
+    background-color: rgb(221, 226, 230);
+    background-image: url(..//img/pexels-gratisography-451.jpg);
+    width: 100%;
+    min-height: 600px;
+}
+
+.iletisimForm{
+    position: relative;
+    top: 30px;
+}
