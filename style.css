@@ -50,3 +50,13 @@ body{
     position: relative;
     top: 30px;
 }
+
+
+.container-fluid{
+    background-color: #111;
+}
+
+#footer{
+    color: #bbb;
+    
+}
