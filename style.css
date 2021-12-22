@@ -1,5 +1,5 @@
 .imageSlider{
-    height: 700px;
+    height: 679px;
 }
 
 body{
@@ -26,7 +26,8 @@ body{
 }
 
 .ekipCard>img:hover{
-    opacity:0.8;
+    opacity:1;
+    transform: scale(1.1);
 }
 
 
@@ -35,22 +36,27 @@ body{
 }
 
 .figure:hover{
-    opacity: 0.6;
+    opacity: 0.8;
 }
+
+.figure img:hover{
+    transform: scale(1.2);
+
+}
+
 
 .sectionIletisim{
    
-    background-color: rgb(221, 226, 230);
-    background-image: url(..//img/pexels-gratisography-451.jpg);
+   
+    background-image: url(..//img/vintage-g9a0527d59_1280.jpg);    
     width: 100%;
-    min-height: 600px;
+    min-height: 679px;
 }
 
 .iletisimForm{
     position: relative;
     top: 30px;
 }
-
 
 .container-fluid{
     background-color: #111;
@@ -59,4 +65,35 @@ body{
 #footer{
     color: #bbb;
     
+}
+
+.bc{
+    margin: 0%;
+    padding: 0%; 
+    background-color: #000000db;
+    text-align: center;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+
+.img-gallery{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto fit, minmax(25opx, 1fr));
+    grid-gap: 30px;
+
+}
+
+.img-gallery img{
+
+    width: 100%;
+    cursor: pointer;
+}
+
+.img-gallery img:hover{
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
 }
